@@ -1,0 +1,57 @@
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #001f3f, #001122);
+  color: white;
+  overflow: hidden;
+}
+
+.countdown-card {
+  padding: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffc107;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.time-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.time-value {
+  font-size: 2rem;
+  color: #ff6f61;
+}
+
+.time-label {
+  font-size: 1rem;
+  color: #bdbdbd;
+}
+
+.fireworks-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}

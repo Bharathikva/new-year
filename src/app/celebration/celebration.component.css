@@ -1,0 +1,18 @@
+.celebration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #001f3f, #001122);
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+canvas {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
