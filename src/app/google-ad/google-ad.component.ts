@@ -4,12 +4,13 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-google-ad',
   imports: [],
   template: `
-    <div class="ad-container">
+     <div class="ad-container">
       <ins class="adsbygoogle"
            style="display:block"
-           data-ad-client="ca-pub-xxxxxxxxxxxxxxx"
-           data-ad-slot="xxxxxxxxxx"
-           data-ad-format="auto"></ins>
+           data-ad-client="ca-pub-4882959606926736"
+           data-ad-slot="1234567890"
+           data-ad-format="auto">
+      </ins>
     </div>
   `,
   styleUrl: './google-ad.component.css'
